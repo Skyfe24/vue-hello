@@ -71,3 +71,7 @@ body{
   flex-wrap: wrap;
 }
 
+.imageclassic{
+  width: 200px;
+  height: 200px;
+}

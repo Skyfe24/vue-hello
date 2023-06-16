@@ -10,7 +10,7 @@ const { createApp } = Vue;
 const app = createApp({
   data() {
     return {
-      letterainiziale: 'ffffffffffffff',
+      letterainiziale: 'QUI il Testo da stampare con Vue, a destra il bonus: carica immagine con Vue',
       Imgsample: "img/christopher.jpg",
 
     }

@@ -9,3 +9,6 @@ BONUS: proviamo ad aggiungere un'immagine, derivante anch'essa dai dati di metho
     }
 
   }
+
+  <img v-bind:src ="Imgsample"> metodo 1 per stampare in un attributo html il contenuto, una variabile data
+  <img class="imageclassic" v-bind:src ="Imgsample">
