@@ -7,12 +7,11 @@ console.log("Vue OK", Vue);
 const { createApp } = Vue;
 
 // Inizializziamo l'app Vue
-
 const app = createApp({
   data() {
     return {
       letterainiziale: 'ffffffffffffff',
-      Imgsample: <img src = "christopher.jpg"></img>
+      Imgsample: "img/christopher.jpg",
 
     }
   },
