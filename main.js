@@ -12,10 +12,13 @@ const app = createApp({
   data() {
     return {
       letterainiziale: 'ffffffffffffff',
+      Imgsample: <img src = "christopher.jpg"></img>
 
     }
   },
-  
+  methods: {
+    
+  }
 })
 // La monto nel mio id chiamato 'prova'
-app.mount('prova');
+app.mount('#prova');
