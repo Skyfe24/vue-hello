@@ -23,7 +23,8 @@
 <body>
     <header>
         <div  id='prova' class ="flex between" >
-            <h1 class="ms-2 text1">{{ letterainiziale }}</h1> <img class="imageclassic" :src="Imgsample"> </div> <h3 class="text-center mt-2">VUE VUE VUE <span id="score"></span></h3>
+            <h1 class="ms-2 text1" v-bind:class="colorClass">{{ letterainiziale }}</h1> <img class="imageclassic" :src="Imgsample"> <br>
+             <h3 class="text-center mt-2">VUE VUE VUE <span id="score"></span></h3>
             <button class="border-round next pe-3" id="displayer">
                 <i class="fas fa-angle-down"> Gioca e divertiti con Vue</i>
             </button>
@@ -31,7 +32,7 @@
 
     </header>
     <div class="container mt-4 mb-4" >
-        <div id="grid">
+        <div id="grid"><input :placeholder="traccia" type="text"> </div>
             <!-- <div class="box">1</div>
         <div class="box">2</div>
         <div class="box">3</div>
